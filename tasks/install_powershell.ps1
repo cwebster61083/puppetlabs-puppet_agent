@@ -9,7 +9,7 @@ Param(
   [Int]$retry = 5,
   [Bool]$_noop = $False
 )
-# If an error is encountered, the script will stop instead of the default of "Continue"
+# If an error is encountered, the script will stop instead of the default of "Continue a chnage"
 $ErrorActionPreference = "Stop"
 
 try {
